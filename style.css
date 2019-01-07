@@ -1,0 +1,40 @@
+ul {
+    font-size: 20px;
+    padding:20px;}
+h1 {
+    border-bottom: 1px solid grey;
+    background-color: #1a53ff;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    font-size: 45px;}
+
+a {text-decoration: none;}
+
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;}
+
+a:visited{color: black;}
+
+#page_heading {color:white;}
+
+#grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;}
+
+#grid ul {
+    padding-left: 52px;
+    padding-top: 30px;
+    background-color: pink;
+    margin: 0}
+
+#article {padding-top: 0px;
+    padding-left: 30px;
+    border-left: 1px solid grey;}
+
+@media(max-width:750px){
+    #grid {display: block;}
+    #article {border-left: none;}
+    }
+}
